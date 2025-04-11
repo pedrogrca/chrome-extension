@@ -20,12 +20,31 @@ input {
 }
 
 button {
-    background: #f00dbf;
+    background-color: #f00dbf;
     color: white;
     padding: 10px 20px;
-    border: none;
     font-weight: bold;
+    border: none;
+    border-radius: 7px;
+    transition: color 0.3s ease, background-color 0.3s ease;
+    cursor: pointer;
 }
+
+button:hover {
+    background-color: white;
+    color: #f00dbf;
+}
+
+#delete-btn {
+    background-color: white;
+    color: #f00dbf;
+}
+
+#delete-btn:hover {
+    background-color: #f00dbf;
+    color: white;
+}
+
 
 ul {
     margin-top: 15px;
