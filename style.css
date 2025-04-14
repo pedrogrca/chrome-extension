@@ -31,17 +31,17 @@ button {
 }
 
 button:hover {
-    background-color: white;
-    color: #f00dbf;
+    background-color: rgb(132, 0, 255);
+    color: #ffffff;
 }
 
 #delete-btn {
     background-color: white;
-    color: #f00dbf;
+    color: #d40101;
 }
 
 #delete-btn:hover {
-    background-color: #f00dbf;
+    background-color: #d40101;
     color: white;
 }
 
